@@ -1,0 +1,26 @@
+@keyframes move {
+    0% {
+        position: absolute;
+        top: 85%;
+    }
+    25% {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+    }
+    50% {
+        position: absolute;
+        top: -30px;
+        left: 93%;
+    }
+    75% {
+        position: absolute;
+        top: 85%;
+        left: 93%;
+    }
+    100% {
+        position: absolute;
+        top: 85%;
+        left: -30px;
+    }
+}
