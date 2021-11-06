@@ -1,6 +1,6 @@
 //// Animation Scripts
 
-
+/*
 window.onscroll = () => {
 
     if (window.pageYOffset >= 300 && window.pageYOffset <= 310) {
@@ -17,3 +17,4 @@ window.onscroll = () => {
         });
     }
 }
+*/
