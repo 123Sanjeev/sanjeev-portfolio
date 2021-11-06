@@ -1,0 +1,48 @@
+:root {
+    --mobile-font: 16px;
+    --mobile-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: var(--mobile-font);
+        color: var(--mobile-color);
+    }
+    #Home {
+        height: 60vh;
+    }
+    .int1 {
+        width: 80%;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .int1 div:first-child {
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+    }
+    .int1 div:nth-child(2)>img {
+        width: 200px!important;
+        height: 200px !important;
+    }
+    .dTa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cdTa {
+        width: 80%;
+    }
+    .ttl1 h1 {
+        width: 100%;
+        margin-left: -120px;
+        background-color: white;
+    }
+    #About {
+        height: 60vh;
+    }
+}
